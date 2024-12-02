@@ -118,7 +118,7 @@ console.log(enlace[0].getAttribute("href"))
 
 enlace[0].removeAttribute("href");
 
-console.log(enlace,getAttribute("href"))
+console.log(enlace.getAttribute("href"))
 
 /* 
 

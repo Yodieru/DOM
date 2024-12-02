@@ -91,3 +91,58 @@ lista.textContent = "cargando..."
 
 titulo.innerHTML = "¡Amigos <span>pokemones</span>!"
 lista.innerHTML = "<li> Eevee🦊 </li> <li> Jigglypuff 🎶</li>"
+
+/* 
+
+  getAttribute()
+
+  Devuelve el valor del atributo del elemento.
+  
+  elemento.getAttribute(atributo)
+
+*/
+
+const enlace = document.getElementsByTagName("a")
+
+console.log(enlace[0].getAttribute("href"))
+
+/* 
+
+  removeAttribute()
+
+  Elimina el valor del atributo de un elemento.
+
+    elemento.removeAttribute(atributo)
+
+*/
+
+enlace[0].removeAttribute("href");
+
+console.log(enlace,getAttribute("href"))
+
+/* 
+
+  setAttribute()
+
+  Asigna un atrubutoy un valor a un ejemplo.
+
+    elemento.setAttribute(atributo, valor)
+
+  - Sobreescribir un atributo ya declarado
+  - Crear un nuevo atributo y su valor
+
+*/
+
+enlace[0].setAttribute("href", "html://www.instagram.com");
+
+console.log(enlace[0]-getAttribute("href"));
+
+/* Antes */
+
+console.log(enlace[0]-getAttribute("target"));
+enlace[0].setAttribute("target", "_blank");
+
+/* Despues */
+
+console.log(enlace[0]-getAttribute("target"));
+

@@ -9,8 +9,8 @@ body {
 }
 
 .ingredientes {
-  margin: 0;
-  width: 0;
+  margin: 0 auto;
+  width: 300px;
   border: 2px solid darkorchid;
 }
 
@@ -19,5 +19,13 @@ body {
 }
 
 .botana {
-  
+  padding: 8px 24px;
+}
+
+.bg-ligthblue {
+  background-color: lightblue;
+}
+
+.bg-ligthpink {
+  background-color: lightpink;
 }

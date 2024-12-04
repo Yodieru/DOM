@@ -1,0 +1,48 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+  background-color: cornflowerblue;
+  padding: 24px;
+  max-width: 400px;
+  border-radius: 12px;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  color: white;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  padding: 12px 8px;
+  color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.bg-one {
+  background-color: crimson;
+}
+.bg-one:hover {
+  background-color: cadetblue;
+}
+
+.bg-two {
+  background-color: coral;
+}
+
+.bg-two:hover {
+  background-color: burlywood;
+}
